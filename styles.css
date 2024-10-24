@@ -1,0 +1,250 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #3c759e; /* Fondo azul claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    border-bottom: 4px solid #002244;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 28px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.hero-section {
+    background-color: #003366;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero-section .welcome-line {
+    border-top: 2px solid white;
+    margin: 10px 0;
+}
+
+.hero-photo-container {
+    margin: 25px 0;
+}
+
+.profile-photo {
+    width: 210px;  /* Aumentar el ancho */
+    height: 210px; /* Aumentar la altura */
+    object-fit: cover;
+    border-radius: 10px;
+    border: 8px solid white;
+}
+
+.profile-name {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about-section {
+    background-color: #688eb4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about-card {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card {
+    background-color: #001f3f;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+    color: #ffcc00;
+}
+
+.project-card img {
+    max-width: 80%;
+    border-radius: 8px;
+}
+
+.cert-card {
+    background-color: #ffffff;
+    padding: 3px; /* Reducir padding */
+    border-radius: 5px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px; /* Espacio entre los certificados */
+    flex: 1 1 calc(25% - 20px); /* Ajustar para que ocupen el 25% del contenedor */
+}
+
+.cert-image {
+    max-width: 80%; /* Ajustar el tamaño de la imagen */
+    height: auto; /* Mantener la proporción */
+    margin: 0 auto; /* Centrar la imagen */
+}
+
+.year-section-1, .year-section-2, .year-section-3 {
+    padding: 5px;
+    border-radius: 5px;
+    display: flex; /* Usar flexbox para alinear horizontalmente */
+    flex-wrap: wrap; /* Permitir que se ajusten en varias líneas si es necesario */
+    justify-content: space-between; /* Espacio entre los elementos */
+    margin-bottom: 40px;
+}
+
+.year-section-1 {
+    background-color: #b3d4fc; /* Color para 1° Año */
+}
+
+.year-section-2 {
+    background-color: #fcf2b3; /* Color para 2° Año */
+}
+
+.year-section-3 {
+    background-color: #b3fcb3; /* Color para 3° Año */
+}
+
+.contact-section {
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    margin-bottom: 30px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form button {
+    width: 100%;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar enlaces */
+}
+
+.social-media li {
+    margin: 10px 0;
+}
+
+.social-icon {
+    width: 24px; /* Ancho del icono */
+    height: 24px; /* Alto del icono */
+    margin-right: 8px; /* Espacio entre icono y texto */
+    vertical-align: middle; /* Alinear verticalmente */
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+}
+
+.social-media a:hover {
+    color: #ffcc00; /* Color de hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Estilos para la sección de herramientas utilizadas */
+.tools-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tool-card {
+    background-color: #f0f8ff; /* Color de fondo diferente */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+    text-align: center;
+    flex: 1 1 calc(30% - 20px); /* Ocupa el 30% del contenedor */
+    max-width: 150px; /* Limitar el ancho máximo de cada tarjeta */
+}
+
+.tool-image {
+    max-width: 25%; /* Ajustar el tamaño de la imagen a la mitad del contenedor */
+    height: auto; /* Mantener la proporción */
+    display: block; /* Asegurar que la imagen sea un bloque */
+    margin: 0 auto; /* Centrar la imagen */
+}
+
+/* Media queries para adaptar la vista en móviles */
+@media (max-width: 768px) {
+    .project-card, .cert-card, .tool-card {
+        margin-bottom: 15px;
+        flex: 1 1 100%; /* Hacer que ocupen el 100% en móviles */
+    }
+
+    .profile-photo {
+        width: 100%;  /* Ajustar al 100% en móvil */
+        height: auto; /* Altura automática para mantener proporción */
+    }
+
+    .cert-image {
+        max-width: 90%; /* Ajustar tamaño de la imagen en móvil */
+    }
+
+    .year-section-1, .year-section-2, .year-section-3 {
+        flex-direction: column; /* Alinear verticalmente en móvil */
+    }
+
+    .tool-card {
+        flex: 1 1 calc(45% - 20px); /* Cambiar a 45% en pantallas más pequeñas */
+    }
+    
+    .tool-image {
+        max-width: 70%; /* Ajustar el tamaño de la imagen en móvil */
+    }
+}

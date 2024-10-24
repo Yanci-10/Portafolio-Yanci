@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Mi Portafolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#acerca-de-mi">Acerca de mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificaciones">Certificaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#herramientas">Herramientas Utilizadas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container" id="inicio">
+        <div class="hero-section text-center">
+            <div class="hero-photo-container">
+                <img src="img/CASTRO PINEDA YANCI SARAHI.jpg" alt="Foto profesional" class="profile-photo">
+                <p class="profile-name">Yanci Sarahí Castro Pineda</p>
+            </div>
+            <div class="welcome-line"></div>
+            <h2>BIENVENIDO A MI PORTAFOLIO</h2>
+            <p>Descubre mis proyectos y habilidades.</p>
+        </div>
+        
+        <section id="acerca-de-mi" class="about-section">
+            <h2>Acerca de mí</h2>
+            <div class="about-card">
+                <p>¡Hola! Soy Yanci, una chica de 19 años con una gran pasión por la tecnología. He estudiado bachillerato en Desarrollo de Software y tengo un técnico en esta área. Me especializo en edición de video, desarrollo web, impresión 3D y manejo de herramientas como Adobe Premiere y Adobe Audition. En este portafolio, quiero compartir algunos de los proyectos que he realizado, como el sistema de Desinfección por medio de Luz UVC, una página web para un negocio y un sistema para el monitoreo del transporte público. Cada uno refleja mis habilidades y mi compromiso con el trabajo en equipo. Mi objetivo es seguir aprendiendo y creciendo en el mundo de la programación y la tecnología. Espero que al explorar mi portafolio puedan ver lo que soy capaz de hacer. ¡Gracias por su visita!</p>
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>Desarrollo de Software: Programación en lenguajes como Python, JavaScript, etc.</li>
+                    <li>Desarrollo Web: Creación de sitios web responsivos y funcionales.</li>
+                    <li>Edición de Video: Manejo de Adobe Premiere y Adobe Audition para la producción y edición de contenido audiovisual.</li>
+                    <li>Impresión 3D: Diseño y creación de modelos 3D.</li>
+                    <li>Resolución de Problemas: Capacidad para identificar y solucionar desafíos técnicos.</li>
+                    <li>Aprendizaje Rápido: Interés en adquirir nuevos conocimientos y habilidades en tecnología.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <h3>Desinfección por medio de Luz-UVC</h3>
+                        <p>El objetivo de este proyecto es demostrar la efectividad de la desinfección de objetos utilizando luz ultravioleta tipo UV-C. Este método se basa en la aplicación de una dosis adecuada de luz UV-C, considerando variables clave como la distancia y la potencia del dispositivo que emite el espectro electromagnético.</p>
+                        <p>Este proyecto no solo busca validar la efectividad de la luz UV-C como método de desinfección, sino también proporcionar una herramienta práctica que permita a los usuarios aplicar estos conocimientos en su vida diaria. A través de esta iniciativa, se espera promover la salud y la seguridad, especialmente en entornos donde la desinfección es crucial.</p>
+                        <img src="img/UVC-Desinfección.png" alt="Desinfección por medio de luz Ultravioleta" class="img-fluid">
+                        <p><a href="https://www.youtube.com/watch?v=u8gQcXB4MFY&ab_channel=Prof.WilliamMejia" target="_blank">Youtube: Desinfeccion UVC</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <h3>Registro de pedidos con MySQL</h3>
+                        <p>El objetivo de este proyecto es modernizar el sistema de pedidos de la panadería y pastelería "Vilma", un negocio local que actualmente no utiliza tecnología para gestionar sus pedidos. Al identificar la falta de un control eficiente, nuestro equipo decidió crear una página web que permita llevar un registro organizado y efectivo de las órdenes.</p>
+                        <p>Con la implementación de esta página web, se espera que la panadería "Vilma" mejore significativamente su gestión de pedidos, ofreciendo una experiencia más fluida tanto para los clientes como para los empleados. Este proyecto no solo facilita la organización interna, sino que también potencia el crecimiento del negocio al incorporar tecnología moderna en sus operaciones.</p>
+                        <img src="img/Pasteleria.jpeg" alt="Registro de pedidos con MySQL" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <h3>SIMONT</h3>
+                        <p>Este proyecto se centra en el desarrollo e implementación de un sistema de planificación de rutas inteligente, diseñado para optimizar la eficiencia del transporte público. La iniciativa busca integrar factores dinámicos y tecnológicos que mejoren la experiencia del usuario en su movilidad diaria.</p>
+                        <p>Con la implementación de este sistema, se espera mejorar significativamente la experiencia del usuario en el transporte público, ofreciendo un servicio más ágil, confiable y accesible. Al proporcionar información en tiempo real y facilitar el proceso de pago, el proyecto busca fomentar un uso más eficiente del transporte, beneficiando tanto a los usuarios como a las operadoras de transporte.</p>
+                        <img src="img/SIMONT.jpg" alt="SIMONT" class="img-fluid">
+                        <p><a href="https://www.youtube.com/watch?v=HHREKRQSV-0&ab_channel=Prof.WilliamMejia" target="_blank">Youtube: SIMONT</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificaciones">
+            <h2>Certificaciones</h2>
+            <div class="year-section-1">
+                <h3>1° Año</h3>
+                <div class="cert-card">
+                    <h4>Robótica con Arduino</h4>
+                    <img src="img/Robotica con Arduino.jpeg" alt="Certificación 1" class="cert-image">
+                </div>
+                <div class="cert-card">
+                    <h4>Introducción al Desarrollo Web</h4>
+                    <img src="img/Introduccion al desarrolo web.jpeg" alt="Certificación 2" class="cert-image">
+                </div>
+                <div class="cert-card">
+                    <h4>The Bour Of Code</h4>
+                    <img src="img/The Bour of Code.jpeg" alt="Certificación 3" class="cert-image">
+                </div>
+                <div class="cert-card">
+                    <h4>CIMAT El Salvador</h4>
+                    <img src="img/CIMAT El Salvador.jpeg" alt="Certificación 4" class="cert-image">
+                </div>
+                <div class="cert-card">
+                    <h4>Producción de Video en Adobe Premiere CC</h4>
+                    <img src="img/Produccion de video.jpeg" alt="Certificación 5" class="cert-image">
+                </div>
+            </div>
+            <div class="year-section-2">
+                <h3>2° Año</h3>
+                <div class="cert-card">
+                    <h4>Representando al INSAMT</h4>
+                    <img src="img/Reprentando al INSAMT.jpeg" alt="Certificación 6" class="cert-image">
+                </div>
+            </div>
+            <div class="year-section-3">
+                <h3>3° Año</h3>
+                <div class="cert-card">
+                    <h4>Linux Entorno de Desarrollo</h4>
+                    <img src="img/linux.png" alt="Certificación 11" class="cert-image">
+                </div>
+                <div class="cert-card">
+                    <h4>Impresión 3D</h4>
+                    <img src="img/Impresion.png" alt="Certificación 12" class="cert-image">
+                </div>
+                <div class="cert-card">
+                    <h4>GIT & GitHub</h4>
+                    <img src="img/Git.png" alt="Certificación 13" class="cert-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="herramientas" class="tools-section">
+            <h2>Herramientas Utilizadas en los 3 años</h2>
+            <div class="row">
+                <div class="tool-card col-md-4">
+                    <h4>Pseint</h4>
+                    <img src="img/Pseint.jpg" alt="Pseint" class="tool-image">
+                </div>
+                <div class="tool-card col-md-4">
+                    <h4>Phothoshop</h4>
+                    <img src="img/Photoshop.png" alt="Phothoshop" class="tool-image">
+                </div>
+                <div class="tool-card col-md-4">
+                    <h4>Ilustrator</h4>
+                    <img src="img/Ilustrator.png" alt="Ilustrator" class="tool-image">
+                </div>
+                <div class="tool-card col-md-4">
+                    <h4>MySQL Server</h4>
+                    <img src="img/MySQL.png" alt="MySQL" class="tool-image">
+                </div>
+                <div class="tool-card col-md-4">
+                    <h4>Apache Neetbeans</h4>
+                    <img src="img/Apache.png" alt="Apache" class="tool-image">
+                </div>
+                <div class="tool-card col-md-4">
+                    <h4>Redes Lan</h4>
+                    <img src="img/Red.png" alt="redes lan" class="tool-image">
+                </div>
+                <div class="tool-card col-md-4">
+                    <h4>Linux</h4>
+                    <img src="img/Lin.png" alt="lin" class="tool-image">
+                </div>
+                <div class="tool-card col-md-4">
+                    <h4>Wordpress</h4>
+                    <img src="img/wordpress.png" alt="wordpress" class="tool-image">
+                </div>
+                <div class="tool-card col-md-4">
+                    <h4>Visual Studio Code</h4>
+                    <img src="img/Visual.jpg" alt="Visual" class="tool-image">
+                </div>
+                <div class="tool-card col-md-4">
+                    <h4>Artillery</h4>
+                    <img src="img/Arti.png" alt="Artillery" class="tool-image">
+                </div>
+                <div class="tool-card col-md-4">
+                    <h4>Android Studio</h4>
+                    <img src="img/Android.png" alt="Android Studio" class="tool-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <h2>Contáctame</h2>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            <div class="social-media">
+                <h3>Sígueme en Redes Sociales</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100076166633992&mibextid=ZbWKwL" target="_blank"><img src="img/Face.png" class="social-icon" alt="facebook">facebook</a></li>
+                    <li><a href="https://www.instagram.com/yancast._/profilecard/?igsh=bjA3MmMxMjMyd2R3" target="_blank"><img src="img/Instagram.jpg" class="social-icon" alt="Instagram">Instagram</a></li>
+                    <li><a href="www.linkedin.com/in/yanci-sarahi-castro-pineda-399208335" target="_blank"><img src="img/linkedin.png" class="social-icon" alt="Linkedin">Linkedin</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Yanci Sarahí Castro Pineda. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
